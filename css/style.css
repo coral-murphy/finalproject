@@ -8,20 +8,21 @@ html,body{
 
 /* fonts */
 body{
-	font-family: Lato, "Helvetica Neue", Arial, sans-serif;
+	font-family: Merriweather, serif, "Helvetica Neue", Arial, sans-serif;
 	color: #333;
+    font-size: 19px;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: Serif, Georgia, "Times New Roman", Times, serif;
 }
 .lead-description{
-	font-family: Georgia, serif;
+	font-family: serif, Georgia;
 }
 
 
 /* CSS for hero image, either background photo or background video */
 .hero{
-  background-image: url("../assets/sample-images/desk.jpg");
+  background-image: url("../assets/heroimage.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -30,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 .hero header{
-  background-color:rgba(0,0,0,0.75);
+  background-color:rgba(0,0,0,0.5);
 
 }
 .hero header > *{
